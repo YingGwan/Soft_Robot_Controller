@@ -100,3 +100,8 @@ How to control this board: send AT commands to it with baud of 115200.
   User Code: Python 
 ---------------------------
 The Python UI of soft robot controller is shown below:
+
+- UI
+<img src="ControllerUI.png" width="450px" />
+
+thread1 used to communicate via serial.
