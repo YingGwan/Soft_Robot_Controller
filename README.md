@@ -30,6 +30,8 @@ BUGs on SoftRobotController-01:
 - Photo of board (not finished yet)
 <img src="/Image/board01.jpg" width="450px" />
 
+
+
 Arduino code
 ---------------------------
 About the whole control system, you can get some information on my another project: https://github.com/LeoAndGit/Arduino_Simple_AT_Command This project uses the same architecture to communicate and control.
@@ -93,3 +95,8 @@ How to control this board: send AT commands to it with baud of 115200.
 - **Send**: AT+ROFF=xx\r\n  
   **Reply**: OK\r\n  
   **Description**: let half-bridge output low. Same with RON command.
+  
+  
+  User Code: Python 
+---------------------------
+The Python UI of soft robot controller is shown below:
